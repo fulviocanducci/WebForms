@@ -1,0 +1,17 @@
+﻿.body-content {
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media screen and (min-width: 768px) {
+    .body-content {
+        padding: 0;
+    }
+}
+
+input.invalid,
+input[aria-invalid="true"] {
+    border: 1px solid #dc3545 !important;
+    box-shadow: 0 0 0 .2rem rgba(220,53,69,.25);
+}
